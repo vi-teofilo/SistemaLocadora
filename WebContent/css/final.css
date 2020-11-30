@@ -1,0 +1,704 @@
+@charset "ISO-8859-1";
+
+.image {
+	background-image: url("../imagens/Slide1.PNG"); /* The image used */
+	background-size: 100%;
+	margin-top: 0px;
+}
+
+.imageteladecadfilme {
+	background-image: url("../imagens/bigbolinha.gif"); /* The image used */
+	background-size: 30%;
+}
+
+.imageteladecadvendedor {
+	background-image: url("../imagens/minions.gif"); /* The image used */
+	background-size: 20%;
+}
+
+.imageteladecadcliente {
+	background-image: url("../imagens/jakeDancing.gif");
+	/* The image used */
+	background-size: 100%;
+}
+
+.imageteladealfilme {
+	background-image: url("../imagens/bigbolinha.gif"); /* The image used */
+	background-size: 100%;
+}
+
+.imageteladealvendedor {
+	background-image: url("../imagens/minions.gif"); /* The image used */
+	background-size: 100%;
+}
+
+.imageteladealcliente {
+	background-image: url("../imagens/jakeDancing.gif");
+	/* The image used */
+	background-size: 100%;
+}
+
+.imageteladeconcliente {
+	background-image: url("../imagens/jakeDancing.gif");
+	/* The image used */
+	background-size: 100%;
+}
+
+.imageteladeconvendedor {
+	background-image: url("../imagens/minions.gif"); /* The image used */
+	background-size: 100%;
+}
+
+.imageteladeconfilme {
+	background-image: url("../imagens/bigbolinha.gif"); /* The image used */
+	background-size: 100%;
+}
+
+.imagetelaefetuarlocacao {
+	background-image: url("../imagens/minions.gif"); /* The image used */
+	background-size: 100%;
+}
+
+.imageteladecadfilme {
+	background-image: url("../imagens/baymaxAbracandoHiro.gif");
+	/* The image used */
+	background-size: 120%;
+}
+
+.confgmenu {
+	background: black;
+	color: white;
+	height: 25px;
+	font-size-adjust: 40px;
+	font-family: arial, Verdana, sans-serif;
+	padding: 2px 10px 2px 10px
+}
+
+.congfcadastrolabel {
+	margin: 0px;
+	background: black;
+	color: white;
+	height: 25px;
+	font-size: 17px;
+	font-size-adjust: 40px;
+	font-family: arial, Verdana, sans-serif;
+	padding: 2px 104px 0px 100px;
+	text-align: center;
+}
+
+.congfcadastrolabel {
+	margin: 10px;
+	margin-right: 20px;
+	background: black;
+	color: white;
+	height: 25px;
+	font-size-adjust: 40px;
+	font-family: arial;
+	background: black;
+}
+.telafilmelista {
+    position: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border: 0px solid #b2b2b2;
+    -webkit-border-radius: 3px;
+    border-radius: 4px;
+    border: 0px solid black;
+    
+    width: 280%;
+    font-family: arial;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.lista {
+	text-align: center;
+	font: arial;
+}
+
+.telafilme {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 270%;
+	font-family: arial;
+}
+.telafilmecad {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 400%;
+	font-family: arial;
+}
+.telafilmecadven {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 630%;
+	font-family: arial;
+}
+.telafilmecadcli {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 530%;
+	font-family: arial;
+}
+
+
+.telalocacao {
+	position: center;
+	background: #ffffff;
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin-left: 110px;
+	width: 200%;
+	font-family: arial;
+	margin-top: 16px;
+}
+
+.labeltable {
+	background: black;
+	text-align: center;
+	margin-left: 95px;
+	font-size: 15px;
+	margin-right: 92px;
+}
+
+.labeltablefilme {
+	background: black;
+	text-align: center;
+	margin-left: 23px;
+	font-size: 15px;
+	margin-right: 23px;
+}
+
+.labeltablevendedor {
+	background: black;
+	text-align: center;
+	margin-left: 57px;
+	font-size: 15px;
+	margin-right: 57px;
+}
+
+.labeltablecliente {
+	background: black;
+	text-align: center;
+	margin-left: 66px;
+	font-size: 15px;
+	margin-right: 66px;
+}
+
+.labeltableclientedata {
+	background: black;
+	text-align: center;
+	margin-left: 3px;
+	font-size: 15px;
+	margin-right: 3px;
+}
+
+.painel-table {
+	border: 0px solid black;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.painel-tablerelatorio {
+	border: 0px solid black;
+	margin: auto;
+	width: 30%;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.painel-tablecliente {
+	border: 0px solid black;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.painel-tablelocacao {
+	border: 0px solid black;
+	margin: auto;
+	width: 54%;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.valorpromocao {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 100px;
+	font-family: arial;
+}
+
+.label {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+}
+
+.labellocacao {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+}
+
+.labelcliente {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 0px;
+	margin-top: -12px;
+	position: absolute;
+}
+
+.labelclientelado {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 125px;
+	margin-top: -12px;
+	position: absolute;
+}
+
+.labelfilme {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 330px;
+	margin-top: -16px;
+	position: absolute;
+}
+
+.labelfilmelado {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 440px;
+	margin-top: -16px;
+	position: absolute;
+}
+
+.labelvalor {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 330px;
+	margin-top: -2px;
+	position: absolute;
+}
+
+.labelvalorlado {
+	font: 15px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	font-family: arial;
+	margin-left: 440px;
+	margin-top: -2px;
+	position: absolute;
+}
+
+h1 {
+	font: 30px Arial, sans-serif;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px
+		0 #000;
+	color: white;
+	text-align: center;
+}
+
+.cadatrafilme {
+	border: 0px solid black;
+	margin: auto;
+	width: 40%;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cadatralocacao {
+	border: 0px solid black;
+	margin: auto;
+	width: 46%;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.botaosalvar {
+	margin-left: 150px;
+	position: relative;
+	width: 80%;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 2px;
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+}
+
+.botaosalvarlocacao {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 2px;
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 200px;
+	position: relative;
+	width: 60%;
+	padding: 4px;
+	float: right;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	margin-top: 50px
+}
+
+.botaocancelarlocacao {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 2px;
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 70px;
+	position: relative;
+	width: 100%;
+	color: bleck;
+	padding: 4px 10px;
+	-webkit-border-radius: 3px;
+	margin-top: 50px;
+}
+
+.botaoconfirma {
+	background: rgba(255, 255, 255, 0.5);
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 60px;
+	position: relative;
+	width: 80%;
+	padding: 2px;
+	float: right;
+}
+
+.botaopesquisar {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 2px;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 370px;
+	position: relative;
+	width: 40%;
+	padding: 3px;
+	float: right;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+}
+
+.botaopesquisarcliente {
+	background: rgba(255, 255, 255, 0.5);
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 380px;
+	position: relative;
+	width: 38%;
+	padding: 2px;
+	float: right;
+	-webkit-border-radius: 3px;
+}
+
+.botaopesquisarlocacao {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 4px;
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 390px;
+	position: relative;
+	width: 33%;
+	padding: 2px;
+	float: right;
+	-webkit-border-radius: 3px;
+	margin-top: 16px;
+}
+
+.botaoretornar {
+	margin-left: 40px;
+	position: relative;
+	width: 80%;
+	background: #e1f1f6;
+	padding: 3px;
+	float: right;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+}
+
+.botaoavancar {
+	margin-left: 220px;
+	position: relative;
+	width: 30%;
+	background: #e1f1f6;
+	padding: 3px;
+	float: right;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+}
+
+.botaocancelar {
+	margin-left: 95px;
+	position: relative;
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: bleck;
+	float: letf;
+	padding: 2px ;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+}
+
+.botaocancelarlista {
+	background: rgba(255, 255, 255, 0.5);
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 10px;
+	position: relative;
+	width: 90%;
+	float: letf;
+	padding: 4px 10px;
+	border: 1px solid #b2b2b2;
+}
+
+.botaogerar {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 4px;
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	margin-left: 70px;
+	position: absolute;
+	width: 20%;
+	float: letf;
+	padding: 4px 10px;
+}
+
+.botaovisualizar {
+	margin-left: 70px;
+	margin-top: 30px;
+	position: absolute;
+	width: 20%;
+	background-color: #e1f1f6;
+	color: bleck;
+	float: letf;
+	padding: 4px 10px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	position: absolute;
+}
+
+.botaovoltar {
+	margin-left: 170px;
+	position: absolute;
+	margin-top: 70px;
+	width: 5%;
+	background: #e1f1f6;
+	padding: 3px;
+	float: right;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+}
+
+.botaosairlocacao {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 4px;
+	float: right;
+	border: 1px solid #808080;
+	-webkit-border-radius: 3px;
+	border-radius: 7px;
+	font: 20px Arial, sans-serif;
+	color: black;
+	position: relative;
+	width: 30%;
+	float: letf;
+	padding: 4px 10px;
+	margin-top: 10px;
+	margin-left: 260px;
+}
+
+.areavenda {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 248%;
+	font-family: arial;
+}
+
+.cpf {
+	position: center;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border: 0px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 0px solid black;
+	margin: auto;
+	width: 80%;
+	font-family: arial;
+	
+	
+}
+
+.input {
+	background: #e1f1f6;
+	padding: 2px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	width: 70%;
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	margin-top: 2px;
+}
+
+.inputdevolver {
+	background: #e1f1f6;
+	padding: 2px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	width: 80%;
+	margin-left: 49px;
+	margin-right: 320px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	margin-top: 2px;
+}
+
+.inputfilme {
+	background: #e1f1f6;
+	padding: 2px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	width: 20%;
+	margin-left: 325px;
+	margin-right: 0px;
+	margin-bottom: -10px;
+	font-size: 14px;
+	margin-top: -31px;
+	position: absolute;
+}
+
+.inputcliente {
+	background: #e1f1f6;
+	padding: 2px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	width: 70%;
+	margin-left: 0px;
+	margin-right: 200px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	margin-top: 2px;
+}

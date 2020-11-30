@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Configurações da conexão -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/locadora</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+
+		<!-- Dialeto utilizado -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<!-- Criação/Utilização da base da dados -->
+		<property name="hbm2ddl.auto">create</property>
+
+		<!-- Classes -->
+		<mapping class="br.com.foursys.locadora.bean.Cliente" />
+		<mapping class="br.com.foursys.locadora.bean.Filme" />
+		<mapping class="br.com.foursys.locadora.bean.Vendedor" />
+		<mapping class="br.com.foursys.locadora.bean.Locacao" />
+	</session-factory>
+</hibernate-configuration>
