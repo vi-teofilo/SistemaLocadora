@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="1.2"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+	<!-- REGRAS DE MAPEAMENTO DE CLASSE BACKEND -->
+	<managed-bean>
+		<managed-bean-name>relatorioBacking</managed-bean-name>
+		<managed-bean-class>br.com.foursys.locadora.backingbean.RelatorioBacking</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<!-- REGRAS DE MAPEAMENTO DE CLASSE BACKEND -->
+	<managed-bean>
+		<managed-bean-name>clienteBacking</managed-bean-name>
+		<managed-bean-class>br.com.foursys.locadora.backingbean.ClienteBacking</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<!-- REGRAS DE MAPEAMENTO DE CLASSE BACKEND -->
+	<managed-bean>
+		<managed-bean-name>filmeBacking</managed-bean-name>
+		<managed-bean-class>br.com.foursys.locadora.backingbean.FilmeBacking</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<!-- REGRAS DE MAPEAMENTO DE CLASSE BACKEND -->
+	<managed-bean>
+		<managed-bean-name>locacaoBacking</managed-bean-name>
+		<managed-bean-class>br.com.foursys.locadora.backingbean.LocacaoBacking</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<!-- REGRAS DE MAPEAMENTO DE CLASSE BACKEND -->
+	<managed-bean>
+		<managed-bean-name>vendedorBacking</managed-bean-name>
+		<managed-bean-class>br.com.foursys.locadora.backingbean.VendedorBacking</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<!-- REGRAS DE NAVEGAÇÃO DE MENU -->
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{clienteBacking.cadastraCliente}</from-action>
+			<to-view-id>/cadastrarCliente.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO DE MENU -->
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{relatorioBacking.relatorioCliente}</from-action>
+			<to-view-id>/relatorioCliente.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+		<navigation-case>
+			<from-action>#{relatorioBacking.relatorioFilme}</from-action>
+			<to-view-id>/relatorioFilme.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+		<navigation-case>
+			<from-action>#{relatorioBacking.relatorioVendedor}</from-action>
+			<to-view-id>/relatorioVendedor.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+		<navigation-case>
+			<from-action>#{relatorioBacking.relatorioLocacao}</from-action>
+			<to-view-id>/relatorioLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO DE MENU -->
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{filmeBacking.cadastraFilme}</from-action>
+			<to-view-id>/cadastrarFilme.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO DE MENU -->
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{vendedorBacking.cadastraVendedor}</from-action>
+			<to-view-id>/cadastrarVendedor.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{clienteBacking.consultaCliente}</from-action>
+			<to-view-id>/consultarCliente.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{filmeBacking.consultaFilme}</from-action>
+			<to-view-id>/consultarFilme.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{vendedorBacking.consultaVendedor}</from-action>
+			<to-view-id>/consultarVendedor.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{locacaoBacking.consultaLocacao}</from-action>
+			<to-view-id>/consultarLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{locacaoBacking.devolveLocacao}</from-action>
+			<to-view-id>/devolverLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{clienteBacking.alterarCliente}</from-action>
+			<to-view-id>/alterarCliente.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{filmeBacking.alterarFilme}</from-action>
+			<to-view-id>/alterarFilme.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{vendedorBacking.alterarVendedor}</from-action>
+			<to-view-id>/alterarVendedor.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<navigation-rule>
+		<navigation-case>
+			<from-action>#{locacaoBacking.efetuarLocacao}</from-action>
+			<to-view-id>/efetuarLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CADASTRA CLIENTE -->
+	<navigation-rule>
+		<from-view-id>/cadastrarCliente.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CADASTRA Filme -->
+	<navigation-rule>
+		<from-view-id>/cadastrarFilme.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CADASTRA VENDEDOR -->
+	<navigation-rule>
+		<from-view-id>/cadastrarVendedor.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CONSULTA CLIENTE -->
+	<navigation-rule>
+		<from-view-id>/consultarCliente.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CONSULTA FILME -->
+	<navigation-rule>
+		<from-view-id>/consultarFilme.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CONSULTA VENDEDOR -->
+	<navigation-rule>
+		<from-view-id>/consultarVendedor.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA CONSULTA LOCACAO -->
+	<navigation-rule>
+		<from-view-id>/consultarLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA EFETUAR LOCACAO -->
+	<navigation-rule>
+		<from-view-id>/efetuarLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>sair</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<from-view-id>/efetuarLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/efetuarLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<from-view-id>/efetuarLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>salvar</from-outcome>
+			<to-view-id>/efetuarLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<from-view-id>/devolverLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>devolver</from-outcome>
+			<to-view-id>/devolverLocacao.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+
+	<!-- REGRAS DE NAVEGAÇÃO TELA ALTERA CLIENTE -->
+	<navigation-rule>
+		<from-view-id>/alterarCliente.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA ALTERA FILME -->
+	<navigation-rule>
+		<from-view-id>/alterarFilme.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA ALTERA Vendedor -->
+	<navigation-rule>
+		<from-view-id>/alterarVendedor.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA Devolver LOCACAO -->
+	<navigation-rule>
+		<from-view-id>/devolverLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>cancelar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<!-- REGRAS DE NAVEGAÇÃO TELA RELATORIO -->
+	<navigation-rule>
+		<from-view-id>/relatorioCliente.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>voltar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<from-view-id>/relatorioFilme.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>voltar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<from-view-id>/relatorioVendedor.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>voltar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<from-view-id>/relatorioLocacao.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>voltar</from-outcome>
+			<to-view-id>/index.jsp</to-view-id>
+			<redirect />
+		</navigation-case>
+	</navigation-rule>
+</faces-config>
